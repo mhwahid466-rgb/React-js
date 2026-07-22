@@ -1,0 +1,96 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    color: white;
+  font-family:'Times New Roman', Times, serif;
+  background-color: #111; 
+
+}
+
+ .card {
+    border: 1px solid white;
+  border-radius: 25px;
+  height: 350px;
+  width: 300px;
+  background-color: #222;
+  margin: 50px ;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+  box-shadow: 0 4px 10px   white;
+}
+.card .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+  border-radius: 25px;
+  margin:30px;
+  width: 45px ;
+  height: 45px;
+  background-color:  #222;
+  border: 1px solid white;
+}
+
+.btn{
+  margin: 10px;
+    padding: 4px 8px ;
+    border: 1px solid white;
+  background-color:  #222;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  
+}
+.center h5{
+  font-size: 18px;
+}
+.center h5 span{
+  font-size: 13px;
+  color: #bababa;
+}
+.part{
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.center{
+  margin: 0px 25px;
+}
+.center h2{
+  margin-top: 5px;
+}
+.center h4{
+  background-color: #b1b1b1;
+  padding: 2px 5px;
+}
+
+.bottom{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-top: 1px solid #b1b1b1;
+   padding: 10px 0px;
+   margin: 70px 25px;
+}
+.bottom button {
+border: 1px solid  white;
+  padding: 10px 20px;
+  background-color: #222;
+  color:  white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  
+}
+.bottom button:hover{
+  background-color: white;
+  color: #222;
+  box-shadow: 0 1px 10px   white;
+}
