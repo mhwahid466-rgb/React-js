@@ -1,5 +1,4 @@
 import React from 'react'
-// import reacticon from '../assets/react.svg'
 
 const Card = (props) => {
   return (
